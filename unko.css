@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+form#unko{
+  padding : 10px 5px 0;
+}
+form#unko input{
+  height : auto;
+  vertical-align : middle;
+  color : #ffffff;
+  text-shadow : 0px -1px 0px #666666;
+  border-radius : 5px;
+  border-top : 1px solid #ffffff;
+  border-right : 1px solid #b0b0b0;
+  border-bottom : 1px solid #aaaaaa;
+  border-left : 1px solid #f09a5c;
+  padding : 4px 10px;
+  font-family : "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
+}
+form#unko input.start{
+  background : #a05a2c;
+}
+form#unko input.stop{
+  background : #0000ff;
+  display : none;
+}
+form#unko input:hover{
+  color : #ffee00;
+  cursor : pointer;
+}
